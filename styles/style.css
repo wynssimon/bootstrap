@@ -22,7 +22,8 @@ h1 {
   top: 25px;
   right: 5% !important;
 }
-.card-header {
+.card-header,
+.card-title {
   font-family: "Indie Flower", cursive;
   font-weight: 600;
   font-size: x-large;

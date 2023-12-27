@@ -17,6 +17,11 @@ h1 {
 .carouselKlein {
   display: none;
 }
+.position-absolute-right {
+  position: absolute;
+  top: 25px;
+  right: 5% !important;
+}
 
 @media (min-width: 992px) {
   .carouselGroot {

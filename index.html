@@ -16,21 +16,22 @@
       href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon" />
     <title>De accordeon</title>
   </head>
   <body>
     <header>
       <nav
-        class="navbar navbar-expand-lg navbar-light bg-secondary bg-opacity-50 shadow-lg p-3"
+        class="navbar navbar-expand-lg navbar-light bg-secondary bg-opacity-50 shadow-lg"
       >
         <div
-          class="container-fluid d-flex d-lg-grid justify-content-lg-center justify-content-between"
+          class="container-fluid d-flex d-lg-grid justify-content-lg-center justify-content-center"
         >
-          <a class="navbar-brand m-0 text-center" href="#">
+          <a class="navbar-brand m-0 text-center" href="/index.html">
             <img src="./img/logo.png" class="logo mx-auto center-logo" alt=""
           /></a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler position-absolute-right"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -72,7 +73,7 @@
       <div class="container-fluid p-4 p-lg-5 d-lg-grid">
         <div class="row">
           <div
-            id="carouselExampleAutoplaying "
+            id="carouselExampleAutoplaying"
             class="carousel slide order-lg-1 w-50 carouselKlein col-lg-1"
             data-bs-ride="carousel"
           >
@@ -146,7 +147,7 @@
         </div>
       </div>
       <div
-        id="carouselExampleAutoplaying "
+        id="carouselExampleAutoplaying2"
         class="carousel slide carouselGroot"
         data-bs-ride="carousel"
       >
@@ -167,7 +168,7 @@
         <button
           class="carousel-control-prev"
           type="button"
-          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-target="#carouselExampleAutoplaying2"
           data-bs-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -176,7 +177,7 @@
         <button
           class="carousel-control-next"
           type="button"
-          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-target="#carouselExampleAutoplaying2"
           data-bs-slide="next"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -184,19 +185,19 @@
         </button>
       </div>
       <div class="container-fluid p-4 p-lg-5 d-grid">
-        <article class="mt-4 mb-4">
-          <h1>Wat vindt u op deze site?</h1>
-          <section class="bg-secondary bg-opacity-10">
+        <article class="mt-4 mb-5">
+          <h1 class="mb-lg-5">Wat vindt u op deze site?</h1>
+          <section class="bg-secondary bg-opacity-10 p-5 shadow-lg">
             <div class="d-flex flex-wrap mt-4 mb-4">
               <div class="col text-center m-2">
                 <a href="#weetjes">
-                  <img class="navigatie mb-2" src="/img/weetje.png" alt=""
+                  <img class="navigatie mb-3" src="/img/weetje.png" alt=""
                 /></a>
                 <p>Je vindt hier enkele leuke weetjes over de accordeon</p>
               </div>
               <div class="col text-center m-2">
                 <a href="/pages/types.html">
-                  <img class="navigatie mb-2" src="/img/arrows.png" alt=""
+                  <img class="navigatie mb-3" src="/img/arrows.png" alt=""
                 /></a>
                 <p>
                   Op de types-pagina bespreken we de verschillende types
@@ -205,7 +206,7 @@
               </div>
               <div class="col text-center m-2">
                 <a href="/pages/geschiedenis.html">
-                  <img class="navigatie mb-2" src="/img/history.png" alt=""
+                  <img class="navigatie mb-3" src="/img/history.png" alt=""
                 /></a>
                 <p>
                   Op de geschiedenis-pagina bespreken we het ontstaan en de
@@ -214,7 +215,7 @@
               </div>
               <div class="col text-center m-2">
                 <a href="/pages/mustwatch.html">
-                  <img class="navigatie mb-2" src="/img/video.png" alt=""
+                  <img class="navigatie mb-3" src="/img/video.png" alt=""
                 /></a>
                 <p>
                   Enkele videos die je moet bekeken hebben worden getoond op de
@@ -226,7 +227,7 @@
         </article>
         <article id="weetjes">
           <h1>Wist je dat?</h1>
-          <h2 class="ondertitel">Een accordeon...</h2>
+          <h2 class="ondertitel mb-lg-5">Een accordeon...</h2>
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header">
@@ -309,7 +310,7 @@
       </div>
     </main>
     <footer
-      class="bg-secondary bg-opacity-50 text-center p-4 p-lg-5 text-bg-light"
+      class="bg-secondary bg-opacity-50 text-center p-4 text-bg-light shadow-lg"
     >
       <p>2024 © copyright, all rights reserved</p>
     </footer>

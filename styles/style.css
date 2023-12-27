@@ -5,6 +5,28 @@ h1 {
   font-family: "Indie Flower", cursive;
   font-weight: bold;
 }
+.ondertitel {
+  font-family: "Indie Flower", cursive;
+}
 .navigatie {
   width: 100px;
+}
+.carouselGroot {
+  display: block;
+}
+.carouselKlein {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .carouselGroot {
+    display: none !important;
+  }
+  .carouselKlein {
+    display: block !important;
+  }
+  .kleiner {
+    width: 50% !important;
+    align-self: center;
+  }
 }

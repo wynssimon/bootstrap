@@ -43,4 +43,8 @@ h1 {
   .grootScherm {
     width: 40% !important;
   }
+  .groterScherm {
+    width: 560px;
+    height: 315px;
+  }
 }

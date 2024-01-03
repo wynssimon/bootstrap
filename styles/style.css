@@ -1,10 +1,6 @@
 .logo {
   width: 150px;
 }
-.hoofd,
-.teen {
-  background-color: #595f62;
-}
 .teen a,
 .hoofd a {
   color: #d1ccc6;
@@ -24,7 +20,10 @@ body {
   background-color: #595f62;
   color: #d1ccc6;
   border-color: #393c3f;
-  border-radius: 10px;
+}
+.accordion-button:not(.collapsed) {
+  color: #393c3f;
+  background-color: white;
 }
 .donker {
   color: #d1ccc6;

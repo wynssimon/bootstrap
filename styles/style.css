@@ -1,39 +1,69 @@
+/*algemeen*/
+body {
+  color: #d1ccc6;
+  background-color: #191a1a;
+}
+h1 {
+  font-family: "Indie Flower", cursive;
+  font-weight: bold;
+}
+/*header en footer*/
 .logo {
   width: 150px;
 }
-.teen a,
-.hoofd a {
+.paginaFooter a,
+.paginaHeader a {
   color: #d1ccc6;
 }
 .actieve {
   font-weight: 600;
 }
-.teen a:hover,
-.hoofd a:hover {
+.paginaFooter a:hover,
+.paginaHeader a:hover {
   color: #bbb9b8;
 }
-body {
-  color: #d1ccc6;
-  background-color: #191a1a;
+.hamburger {
+  position: absolute;
+  top: 25px;
+  right: 5%;
 }
+/*home-elementen*/
 .standaardVak {
   background-color: #595f62;
   color: #d1ccc6;
   border-color: #393c3f;
 }
 .accordion-button:not(.collapsed) {
-  color: #d1ccc6;
-  background-color: #595f62;
+  color: #393c3f;
+  background-color: rgba(255, 255, 255, 0.6);
+  background-color: #d1ccc6;
 }
-.donker {
+.accordeonItem {
   color: #d1ccc6;
   background-color: #191a1a;
 }
+.navigatie {
+  width: 100px;
+}
+.carouselGroot {
+  display: block;
+}
+.carouselKlein {
+  display: none;
+}
+/*types*/
 .donkerCard {
   border-color: #2d2d29;
   color: #d1ccc6;
   background-color: #191a1a;
 }
+.card-header,
+.card-title {
+  font-family: "Indie Flower", cursive;
+  font-weight: 600;
+  font-size: x-large;
+}
+/*mustwatch*/
 .change {
   border-color: #393c3f;
   color: #d1ccc6;
@@ -55,62 +85,42 @@ body {
   color: #a7a49e;
   cursor: auto;
 }
-h1 {
-  font-family: "Indie Flower", cursive;
-  font-weight: bold;
-}
-.ondertitel {
-  font-family: "Indie Flower", cursive;
-}
-.navigatie {
-  width: 100px;
-}
-.carouselGroot {
-  display: block;
-}
-.carouselKlein {
-  display: none;
-}
-.position-absolute-right {
-  position: absolute;
-  top: 25px;
-  right: 5%;
-}
-.card-header,
-.card-title {
-  font-family: "Indie Flower", cursive;
-  font-weight: 600;
-  font-size: x-large;
-}
-.groterScherm {
+.videoOpGroterScherm {
   width: 100%;
   height: 200px;
 }
-.grootScherm {
+.videoTitel {
+  font-family: "Indie Flower", cursive;
+}
+/*geschiedenis*/
+.articleOpGroterScherm {
   width: 100%;
 }
-
 @media (min-width: 768px) {
-  .groterScherm {
+  /*mustwatch*/
+  .videoOpGroterScherm {
     width: 100%;
     height: 350px;
   }
 }
 @media (min-width: 992px) {
+  /*home*/
+  .introtekstOpGroterScherm {
+    width: 50%;
+    align-self: center;
+  }
   .carouselGroot {
     display: none;
   }
   .carouselKlein {
     display: block;
   }
-  .kleiner {
-    width: 50%;
-    align-self: center;
-  }
-  .grootScherm {
+  /*geschiedenis*/
+  .articleOpGroterScherm {
     width: 40%;
   }
-  .groterScherm {
+  /*mustwatch*/
+  .videoOpGroterScherm {
     width: 100%;
     height: 450px;
   }

@@ -22,8 +22,8 @@ body {
   border-color: #393c3f;
 }
 .accordion-button:not(.collapsed) {
-  color: #393c3f;
-  background-color: white;
+  color: #d1ccc6;
+  background-color: #595f62;
 }
 .donker {
   color: #d1ccc6;

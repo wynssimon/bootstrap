@@ -7,6 +7,10 @@ h1 {
   font-family: "Indie Flower", cursive;
   font-weight: bold;
 }
+::selection {
+  background-color: #d1ccc6;
+  color: #191a1a;
+}
 /*header en footer*/
 .logo {
   width: 150px;
